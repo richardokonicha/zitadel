@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node prebuild.development.js && ng serve",
-    "build": "ng build --configuration production --base-href=/ui/console/",
+    "start": "node init && node prebuild.development.js && ng serve",
+    "build": "node init && ng build --configuration production --base-href=/ui/console/",
     "prelint": "npm run generate",
     "lint": "ng lint && prettier --check src",
     "lint:fix": "prettier --write src",

@@ -23,7 +23,6 @@ sandbox.go
 
 # IDE
 .idea
-.vscode
 .DS_STORE
 
 # credential
@@ -79,3 +78,7 @@ go.work
 go.work.sum
 # Local Netlify folder
 .netlify
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
